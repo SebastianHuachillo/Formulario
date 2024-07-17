@@ -7,50 +7,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Información General</h1>
-    </header>
     <main>
-        <form>
-            <div class="nombre">
-               
-                <input required type="text"  placeholder="Ingresa tu nombre" >
-                
+        <div class="Formulario">
+            <div class="Titulo">
+                <h1>Información General</h1> 
             </div>
-            <div class="email">
-
-                <input required type="email" placeholder="Ingresa tu correo">
-                
-            </div>
-
-            <div class="edad">
-                <input required type="text" placeholder="Ingresa tu edad">
-            </div>
-            <div>
-                <fieldset>
-                    <input name="Sexo" type="radio" value="M">
-                    <label for="M">M</label>
-                    <input name="Sexo" type="radio" value="F">
-                    <label for="F">F</label>
-                    <input name="Sexo" type="radio" value="NA">
-                    <label for="NA">N.A</label>
-
-                </fieldset>              
-                </form>
-            </div>
-            <div class="DNI">
-                <input required type="text" placeholder="Ingresa tu DNI">
-                
-            </div>
-            <div class="Telefono">
-                <input required type="text" placeholder="Ingresa tu telefono">
             
-            </div>
-            <div class="boton">
-                <input type="submit" value="Submit">
+            <form>
+                <div class="nombre">
                 
-            </div>   
-        </form>   
+                    <input required type="text"  placeholder="Ingresa tu nombre" >
+                    
+                </div>
+                <div class="email">
+
+                    <input required type="email" placeholder="Ingresa tu correo">
+                    
+                </div>
+
+                <div class="edad">
+                    <input required type="text" placeholder="Ingresa tu edad">
+                </div>
+                <div>
+                    <fieldset>
+                        <input name="Sexo" type="radio" value="M">
+                        <label for="M">M</label>
+                        <input name="Sexo" type="radio" value="F">
+                        <label for="F">F</label>
+                        <input name="Sexo" type="radio" value="NA">
+                        <label for="NA">N.A</label>
+
+                    </fieldset>              
+                </div>
+                <div class="DNI">
+                    <input required type="text" placeholder="Ingresa tu DNI">
+                    
+                </div>
+                <div class="Telefono">
+                    <input required type="text" placeholder="Ingresa tu telefono">
+                
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Submit">
+                </div>   
+            </form>
+        </div>
+        
+        <div class="Formulario">
+            <div class="Titulo">
+                <h2>Información del vehiculo</h2>
+            </div>            
+            <form>
+                <div class="rad">
+                    <fieldset>
+                        <input type="radio" name="tipo">
+                        <label for="Atumatico">Automatico</label>
+                        <input type="radio" name="tipo">
+                        <label for="Mecanico">Mecanico</label>
+                        </fieldset>
+                </div>
+                <div class="check">
+                    <fieldset>
+                        <input type="checkbox">
+                        <label for="Aire">Aire acondicionado</label>
+                        <input type="checkbox">
+                        <label for="Asientos">Asientos de cuero</label>
+                        <input type="checkbox">
+                        <label for="GLP">GLP</label>
+                    </fieldset>
+                </div>
+                <div class="sele">
+                    <select name="Nombre de color" id="color">
+                        <option value="color" selected>Seleciona el color</option>
+                        <option value="Blanco perlado">Blanco perlado</option>
+                        <option value="Negro">Negro</option>
+                        <option value="Azul">Azul</option>
+                        <option value="Plata">Plata</option>
+                    </select>
+                </div>
+                <div class="sele">
+                    <select name="Nombre de color" id="color">
+                        <option value="color" selected>Seleciona el departamento</option>
+                        <option value="Ancash">Ancash</option>
+                        <option value="La libertad">La libertad</option>
+                        <option value="Lima">Lima</option>
+                        <option value="Cusco">Cusco</option>
+                    </select>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Submit">
+                </div> 
+            </form>
+            
+        </div>   
     </main>
 </body>
 </html>
