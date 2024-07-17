@@ -1,12 +1,21 @@
-h1{
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    margin: 0px 0px 50px 0px;
+main{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 100px;
 }
-
-div{
-    margin: 0px 0px 20px 0px;
+.Formulario{
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
+    flex-direction: column;
+}
+.Titulo{
+    display: flex;
+    justify-content:center ;
+}
+.nombre, .email, .edad, .DNI, .Telefono, .rad, .check, .sele, .boton{
+    display: flex;
+    justify-content:center ;
+    margin: 30px;
 }
